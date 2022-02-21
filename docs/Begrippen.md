@@ -1,6 +1,6 @@
-h1. 2 Begrippen
+## 2 Begrippen
 
-| Begrip | Uitleg |                                                     
+| Begrip | Toelichting |                                                     
 | ------ | ------------------------------------------------------------ |
 | BSM    | Bericht Structuur Model: Een UML klassediagram dat  is afgeleid van het UGM waarmee de structuur van een specifiek bericht wordt vastgelegd. |
 | EA     | Enterprise Architect. Tool waarmee UML (klasse)diagrammen worden getekend. |

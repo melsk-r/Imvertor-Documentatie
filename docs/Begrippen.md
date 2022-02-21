@@ -1,9 +1,10 @@
 h1. 2 Begrippen
 
-| Begrip       | Uitleg |
-| BSM          | Bericht Structuur Model: Een UML klassediagram dat  is afgeleid van het UGM waarmee de structuur van een specifiek bericht wordt vastgelegd. |
-| EA           | Enterprise Architect. Tool waarmee UML (klasse)diagrammen worden getekend. |
-| EAP          | Xml bestand dat als tussenbestand wordt gegenereerd uit wat is geconfigureerd in het Enterprise Architect. Bevat alle informatie die nodig is om schema's, documentatie en testberichten te genereren. |
+| Begrip | Uitleg |                                                     
+| ------ | ------------------------------------------------------------ |
+| BSM    | Bericht Structuur Model: Een UML klassediagram dat  is afgeleid van het UGM waarmee de structuur van een specifiek bericht wordt vastgelegd. |
+| EA     | Enterprise Architect. Tool waarmee UML (klasse)diagrammen worden getekend. |
+| EAP    | Xml bestand dat als tussenbestand wordt gegenereerd uit wat is geconfigureerd in het Enterprise Architect. Bevat alle informatie die nodig is om schema's, documentatie en testberichten te genereren. |
 | Extern model | .... |
 | Entiteittype | .....|
 

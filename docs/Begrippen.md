@@ -9,7 +9,6 @@ h1. 2 Begrippen
 
 
 
-
 |_.Gegevensmodel|In gegevensmodellen worden structuren beschreven waarmee in informatiemodellen beschreven objecten uitgewisseld worden tussen informatiesystemen. Het gaat daarbij dus NIET om complete berichtstructuren maar alleen om de content van die berichtstructuren.|
 |_.Imvertor|Software waarmee de UML klassediagram voor een koppelvlak vertaald worden naar berichtschema's.|
 |_.Informatiemodel|Een informatiemodel beschrijft de structuur, semantiek en eigenschappen van dingen in de werkelijkheid binnen een gegeven domein ongeacht hoe de gegevens ingewonnen, opgeslagen, beheerd en uitgewisseld worden. Het doet dat in termen van objecten, gegevens (attributen) daarvan en relaties daartussen.|

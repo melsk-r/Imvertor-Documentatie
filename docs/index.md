@@ -1,0 +1,53 @@
+# Inhoud
+
+Deze Wiki is een inventarisatie van informatie over de nieuwe aanpak van KING t.a.v. het opstellen van koppelvlakspecificaties.  
+
+Het is de bedoeling dat we deze Wiki als projectteam zo goed en compleet mogelijk vullen en daarbij de bruikbaarheid in de gaten houden.
+
+## [1 Installatie](./Installatie.md)
+
+Toelichting op het installeren en configureren van Enterprise Architect zoals het inlezen van profielen en beschikbaarstellen van scripts.
+
+## [2 Begrippen](./Begrippen.md)
+
+Begrippen die gehanteerd worden binnen de nieuwe aanpak.
+
+## [3 Het drie-lagen model](./drielagen-model.md)
+
+Uitleg van de samenhang tussen SIM, UGM en BSM.
+
+## [4 De nieuwe werkwijze](.'De-nieuwe-werkwijze.md)
+
+Procesbeschrijving voor het maken van horizontale SIM's en UGM's en de koppelvlak SIM's, UGM's en BSM's.
+
+### [4.1 Het gebruik van SVN](Gebruik-van-SVN.md)
+
+### [4.2 Het opstellen van een horizontaal Semantisch InformatieModel](./Opstellen-SIM)
+
+### [4.3 Het opstellen van een horizontaal GegevensUitwisselingsModel](./Opstellen-UGM)
+
+### [4.3.1 Technische en implementatie-overwegingen](Technische-overwegingen.md)
+
+### [4.4 Het opstellen van een koppelvlak](Opstellen-koppelvlak.md)
+
+### [4.4.1 Opstellen van een Koppelvlak-informatiemodel (Obsolete ?)]()
+
+### [4.4.2 Opstellen van een koppelvlak-UitwisselingsGegevensModel (Obsolete ?)]()
+
+### [4.4.3 Opstellen van een koppelvlak-BerichtStructuurModel (Obsolete ?) ]()
+
+## [5 Handreikingen](./Handreikingen.md)
+
+Handreikingen van diverse pluimage.
+
+### [5.1 Werkinstructies](./Werkinstructies.md)
+
+### [5.2 Technieken en handigheidjes](./Technieken-en-handigheidjes.md)
+
+### [5.3 Naamgevingsconventies](./Naamgevingsconventies.md)
+
+## [6 Wetenswaardigheden en specials](./Wetenswaardigheden-en-specials.md)
+
+## [7 Tagged Values](./Tagged-values.md)
+
+## [8 Veel voorkomende fouten](./Veelvoorkomende-fouten)

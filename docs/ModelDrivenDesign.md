@@ -1,6 +1,6 @@
 # 4 Model Driven Design
 
-In [3 Het drie-lagen model](./Drielagenmodel.md) is al uitgelegd hoe SIM's, UGM's en BSM's met elkaar verweven zijn. In dit hoofdstuk beschrijven we hoe deze modellen daadwerkelijk opgesteld kunnen worden.
+In [3 Het drie-lagen model](./Drielagen-model.md) is al uitgelegd hoe SIM's, UGM's en BSM's met elkaar verweven zijn. In dit hoofdstuk beschrijven we hoe deze modellen daadwerkelijk opgesteld kunnen worden.
 Als handige start kan het [template Enterprise Architect bestand](./Standaard-basis.EAP) als basis worden genomen. Dit bevat een initiële folder structuur en verder alleen modellen die je nodig zou kunnen hebben, bijv. modellen voor datatypes en berichtsoorten.
 
 * In [4.1 Het gebruik van SVN](./Gebruik-van-SVN) wordt beschreven hoe we modellen vanuit Enterprise Architect in een repository kunnen plaatsen en hoe we modellen kunnen ophalen vanuit SVN om te bekijken of bewerken in Enterprise Architect.  

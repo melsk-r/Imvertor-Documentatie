@@ -12,19 +12,19 @@ Toelichting op het installeren en configureren van Enterprise Architect zoals he
 
 Begrippen die gehanteerd worden binnen de nieuwe aanpak.
 
-## [3 Het drie-lagen model](./drielagen-model.md)
+## [3 Het drie-lagen model](./Drielagen-model.md)
 
 Uitleg van de samenhang tussen SIM, UGM en BSM.
 
-## [4 De nieuwe werkwijze](.'De-nieuwe-werkwijze.md)
+## [4 Model Driven Design](./ModelDrivenDesign.md)
 
 Procesbeschrijving voor het maken van horizontale SIM's en UGM's en de koppelvlak SIM's, UGM's en BSM's.
 
 ### [4.1 Het gebruik van SVN](Gebruik-van-SVN.md)
 
-### [4.2 Het opstellen van een horizontaal Semantisch InformatieModel](./Opstellen-SIM)
+### [4.2 Het opstellen van een horizontaal Semantisch InformatieModel](./Opstellen-SIM.md)
 
-### [4.3 Het opstellen van een horizontaal GegevensUitwisselingsModel](./Opstellen-UGM)
+### [4.3 Het opstellen van een horizontaal GegevensUitwisselingsModel](./Opstellen-UGM.md)
 
 ### [4.3.1 Technische en implementatie-overwegingen](Technische-overwegingen.md)
 

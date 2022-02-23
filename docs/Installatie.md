@@ -68,7 +68,7 @@ Het toevoegen van nieuwe stereotypes kan pas gebeuren nadat dit goed is afgestem
 De metamodellen maar ook het EA project van waaruit de metamodellen aangepast worden zijn opgeslagen in de SVN repository https://kinggemeenten.plan.io/svn/stuf-schemagenerator/KING%20Metamodel%20en%20profielen. Daar vindt je ook een handleiding hoe je vanuit het EA project de MDG profielen genereert.
 
 
-### SVN configureren voor EA
+### 1.1.7 SVN configureren voor EA
 
 
 Hieronder worden de stappen beschreven die je moet doorlopen om Enterprise Architect geschikt te maken voor het werken met Subversion.
@@ -114,7 +114,7 @@ De volgorde waarin de configuraties zijn opgevoerd is bepalend voor de volgorde 
  ![Settings](./images/Version%20Control%20Settings%20Configured.png)
 
 
-### Tagged value SourceAttribute navigeerbaar (klikbaar) maken
+### 1.1.8 Tagged value SourceAttribute navigeerbaar (klikbaar) maken
 
 * Ga naar _Configure | Reference Data | UML Types_, voeg daar de tag name 'SourceAttribute' toe (*Let op!* hoofdletter 'S' en 'A') met de onderstaande vulling:
 
@@ -123,7 +123,7 @@ De volgorde waarin de configuraties zijn opgevoerd is bepalend voor de volgorde 
 * Klik op _Save_.
 
 
-### Traceability script beschikbaar maken in project browser.
+### 1.1.9 Traceability script beschikbaar maken in project browser.
 
 
 Installeer de laatste versie van het script die onderaan deze pagina is toegevoegd (Set Traceability Scripts with and without transformation 2021-11-29.xml ).

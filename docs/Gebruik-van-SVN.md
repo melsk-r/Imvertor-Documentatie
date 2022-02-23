@@ -85,7 +85,7 @@ Daarmee is de nieuwe versie weer beschikbaar in EA en zijn de traces behouden. N
 
 ### Procedure modellenbeheer
 
-Zie ook het bijgaande "Presentatie Procedure modellenbeheer":https://kinggemeenten.plan.io/attachments/161227. Deze presentatie is echter slechts ter ondersteuning, de onderstaande procedure is in die zin normatief.
+Zie ook het bijgaande [Presentatie Procedure modellenbeheer](./bestanden/Subversion%20gebruik%20in%20Enterprise%20Architect.pdf) Deze presentatie is echter slechts ter ondersteuning, de onderstaande procedure is in die zin normatief.
 
 ### Opbouwen EA modellen structuur
 
@@ -143,7 +143,7 @@ Hoe ga je te werk.
 _[bestandsnaam in de trunk minus extensie] [versienummer] in gebruik [datum branchcreatie].xml_;
   - De administrator zal daarna, als dat niet al eerder is gebeurd, tevens een nieuwe tag aanmaken. Daarbij hanteert hij de volgende naamgevingsconventie:
 _[bestandsnaam in de trunk minus extensie] [versienummer] in gebruik R[releasedatum].xml_;
-# Nadat de branch is vervaardigd stelt de administrator de opdrachtgever op de hoogte. De opdrachtgever zal vervolgens het origineel van het model in de 'trunk' folder openen in EA en de taggedvalue 'releasedatum' een nieuwe waarde geven. Daarmee wordt voorkomen dat de met de zojuist gemaakte branch overeenkomende model op de server overschreven wordt. Tevens zal hij de status van het model weer op 'in ontwikkeling' zetten. Zo mogelijk kent de opdrachtgever ook een nieuwe waarde aan het 'Version' property toe;
-# De opdrachtgever zal vervolgens de zojuist gemaakte branch van het model in de 'branches' folder openen in EA en de taggedvalue 'releasedatum' een nieuwe waarde geven. Daarmee wordt voorkomen dat het met de zojuist gemaakte tag overeenkomende model op de server overschreven wordt zodra men de branch gaat gebruiken om een patch te creëren. Tevens zal hij de status van het model weer op 'in ontwikkeling' zetten;
-# De administrator verwerkt de nieuwe branch en ook de nieuwe tag in de eerder genoemde tabel;
-# Tenslotte informeert de administrator zo nodig alle gebruikers van een voorgaande versie van het model dat er een nieuwe versie voor handen is.
+  - Nadat de branch is vervaardigd stelt de administrator de opdrachtgever op de hoogte. De opdrachtgever zal vervolgens het origineel van het model in de 'trunk' folder openen in EA en de taggedvalue 'releasedatum' een nieuwe waarde geven. Daarmee wordt voorkomen dat de met de zojuist gemaakte branch overeenkomende model op de server overschreven wordt. Tevens zal hij de status van het model weer op 'in ontwikkeling' zetten. Zo mogelijk kent de opdrachtgever ook een nieuwe waarde aan het 'Version' property toe;
+  - De opdrachtgever zal vervolgens de zojuist gemaakte branch van het model in de 'branches' folder openen in EA en de taggedvalue 'releasedatum' een nieuwe waarde geven. Daarmee wordt voorkomen dat het met de zojuist gemaakte tag overeenkomende model op de server overschreven wordt zodra men de branch gaat gebruiken om een patch te creëren. Tevens zal hij de status van het model weer op 'in ontwikkeling' zetten;
+  - De administrator verwerkt de nieuwe branch en ook de nieuwe tag in de eerder genoemde tabel;
+  - Tenslotte informeert de administrator zo nodig alle gebruikers van een voorgaande versie van het model dat er een nieuwe versie voor handen is.

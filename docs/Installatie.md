@@ -14,11 +14,11 @@ Wij werken met versie 15.2. Als je deze al geïnstalleerd hebt hoef je EA natuur
 
 Alhoewel deze toolpack niet meer noodzakelijk is voor het gebruik van imvertor biedt deze wel enkel handige tools zoals de Navigator en de Message Composer.
 
-De nieuwste versie van dit script kan kostenloos worden opgehaald op de website van Geert Bellekens, https://bellekens.com/product/bellekens-enterprise-architect-toolpack/ . Voeg EA Toolpack toe aan de winkelwagen. De website gebruikt een webshop om downloads aan te bieden. Het is niet verplicht een account aan te maken maar even naam en organisatie invullen moet wel. Na "afrekenen" kun je het bestand downloaden.
+De nieuwste versie van dit script kan kostenloos worden opgehaald op de [website van Geert Bellekens](https://bellekens.com/product/bellekens-enterprise-architect-toolpack/) . Voeg EA Toolpack toe aan de winkelwagen. De website gebruikt een webshop om downloads aan te bieden. Het is niet verplicht een account aan te maken maar even naam en organisatie invullen moet wel. Na "afrekenen" kun je het bestand downloaden.
 
 ### 1.1.3 Imvertor Addin installeren
 
-De imvertor Addin is noodzakelijk om UML-modellen vanuit EA te kunnen aanbieden aan de Armatiek-SAAS omgeving waar Imvertor draait. De nieuwste versie van deze Addin kan kostenloos worden opgehaald van het "Imvertor Dashboard":https://imvertor.armatiek.nl/imvertor-executor/dashboard/wiki?key=info-EAADDIN. De documentatie over deze Addin en het gebruik vind je "hier":https://imvertor.armatiek.nl/imvertor-executor/dashboard/wiki?key=info-DOCIMVTOPEA.
+De imvertor Addin is noodzakelijk om UML-modellen vanuit EA te kunnen aanbieden aan de Armatiek-SAAS omgeving waar Imvertor draait. De nieuwste versie van deze Addin kan kostenloos worden opgehaald van het [Imvertor Dashboard](:https://imvertor.armatiek.nl/imvertor-executor/dashboard/wiki?key=info-EAADDIN). De documentatie over deze Addin en het gebruik vind je [hier](https://imvertor.armatiek.nl/imvertor-executor/dashboard/wiki?key=infoDOCIMVTOPEA).
 
 
 ### 1.1.4 Profielen/Metamodellen MIG en MUG importeren
@@ -34,20 +34,20 @@ In Enterprise Architect kan je via *Specialize | Technologies | Publish-Tech | I
 
 ![MDG-Technology](./images/MDG-Technology1.jpg)
 
-Let er wel op dat je de *"Import to User"* gebruikt, dan heb je immers in ieder project dat je opent of nieuw maakt de beschikking over deze profielen.
+Let er wel op dat je de **"Import to User"** gebruikt, dan heb je immers in ieder project dat je opent of nieuw maakt de beschikking over deze profielen.
 
 De Metamodellen komen dan beschikbaar in de Toolbox.
 
 Noot: als je een profiel wilt verwijderen, dan kan je dat als volgt doen:
-* als het profiel alleen in het 'model' is geïmporteerd dan kan het binnen Sparx verwijderd worden: "Specialize | Technology | Manage-Tech" (remove)
-* als het profiel in ‘User’ is opgenomen, dan moeten de bestanden handmatig worden verwijderd. Open Windows Explorer en ga naar %APPDATA%\Sparx Systems\EA\MDGTechnologies. Daarbij is %APPDATA% over het algemeengelijk aan "C:\Users\%username%\AppData\Roaming\". Dus bijvoorbeeld: "C:\Users\Jans_J\AppData\Roaming\Sparx Systems\EA\MDGTechnologies".
+- als het profiel alleen in het 'model' is geïmporteerd dan kan het binnen Sparx verwijderd worden: **Specialize / Technology / Manage-Tech" (remove)**
+- als het profiel in ‘User’ is opgenomen, dan moeten de bestanden handmatig worden verwijderd. Open Windows Explorer en ga naar %APPDATA%\Sparx Systems\EA\MDGTechnologies. Daarbij is %APPDATA% over het algemeen gelijk aan "C:\Users\%username%\AppData\Roaming\". Dus bijvoorbeeld: "C:\Users\Jans_J\AppData\Roaming\Sparx Systems\EA\MDGTechnologies".
 Let op: de AppData folder is normaliter HIDDEN!
 Verwijder vervolgens het betreffende MDG.bestand.
 
 
 ### 1.1.5 Activeren metamodellen
 
-Na het laden van de MIG, MUG en MBG profielen (zie boven) moeten deze geactiveerd worden in de configuratie van de Schema Composer.  Deze is te bereiken via *Specialize | Technologies | Manage-Tech*.
+Na het laden van de MIG, MUG en MBG profielen (zie boven) moeten deze geactiveerd worden in de configuratie van de Schema Composer.  Deze is te bereiken via **Specialize / Technologies / Manage-Tech**.
 
 ![MDG-technologies](./images/MDG_technologies.png)
 
@@ -65,7 +65,7 @@ Tevens moet in en overbodige profielen uitgezet worden. De profielen die minimaa
 Zo nu en dan moeten de metamodellen worden aangepast. Bijv. omdat er nieuwe stereotypes geconfigureerd moeten worden.
 Het toevoegen van nieuwe stereotypes kan pas gebeuren nadat dit goed is afgestemd met elkaar aangezien nieuwe stereotypes kunnen conflicteren met het MIG.
 
-De metamodellen maar ook het EA project van waaruit de metamodellen aangepast worden zijn opgeslagen in de SVN repository https://kinggemeenten.plan.io/svn/stuf-schemagenerator/KING%20Metamodel%20en%20profielen. Daar vindt je ook een handleiding hoe je vanuit het EA project de MDG profielen genereert.
+De metamodellen maar ook het EA project van waaruit de metamodellen aangepast worden zijn opgeslagen in de [SVN repository]( https://kinggemeenten.plan.io/svn/stuf-schemagenerator/KING%20Metamodel%20en%20profielen). Daar vindt je ook een handleiding hoe je vanuit het EA project de MDG profielen genereert.
 
 
 ### 1.1.7 SVN configureren voor EA
@@ -79,7 +79,7 @@ Hieronder worden de stappen beschreven die je moet doorlopen om Enterprise Archi
  ![Tortoise-setup](./images/Tortoise%20Custom%20Setup.jpg)
 
 - Hierna dien je een working copy aan te maken in je filesysteem van de inmiddels vervaardigde EAP repository. Kies daarvoor eerst de gewenste locatie en creëer zo nodig een folder;
-- Binnen de zojuist gekozen of vervaardigde folder check je vervolgens de repository met de EAP bestanden uit (op dit moment kun je deze vinden onder https://vngrealisatie.plan.io/svn/modellen-repository.modellen-repository), Kies daarbij een naam voor de folder waarin deze moet worden uitgepakt (bijv. ‘EAP-bronnen’). Er worden nu lokaal een aantal folders en bestanden geplaatst;
+- Binnen de zojuist gekozen of vervaardigde folder check je vervolgens de repository met de EAP bestanden uit (op dit moment kun je deze [hier](https://vngrealisatie.plan.io/svn/modellen-repository.modellen-repository) vinden, Kies daarbij een naam voor de folder waarin deze moet worden uitgepakt (bijv. ‘EAP-bronnen’). Er worden nu lokaal een aantal folders en bestanden geplaatst;
 - We gaan nu in EA een aantal versioncontrol configuraties aanmaken die je in de gelegenheid stellen eenvoudig naar de subversion folders te navigeren. Afhankelijk van welke modellen je denkt te gaan produceren moet je enkele of alle volgende configuraties aanmaken voor de volgende folders:
   - trunk/SIM;
   - trunk/UGM;
@@ -93,7 +93,7 @@ Hieronder worden de stappen beschreven die je moet doorlopen om Enterprise Archi
 - Open daarvoor in Enterprise Architect het lege template EA bestand dat je onderaan deze pagina in de bestandslijst kunt vinden. Hier gaan we niets mee doen maar:
   - een geopend EA bestand is een voorwaarde om SVN in Enterprise Architect te configureren;
   - het voorziet je al van de genoemde SVN configuraties die je dan alleen nog maar hoeft te vullen.
-- Ga binnen Enterprise Architect naar ‘Configure | Version Control | Project-VC’.
+- Ga binnen Enterprise Architect naar **‘Configure / Version Control / Project-VC’**.
 Je krijgt nu het volgende menu:
 ![Settings](./images/EA%20Version%20Control%20Settings.jpg)
 
@@ -116,7 +116,7 @@ De volgorde waarin de configuraties zijn opgevoerd is bepalend voor de volgorde 
 
 ### 1.1.8 Tagged value SourceAttribute navigeerbaar (klikbaar) maken
 
-- Ga naar _Configure | Reference Data | UML Types_, voeg daar de tag name 'SourceAttribute' toe (*Let op!* hoofdletter 'S' en 'A') met de onderstaande vulling:
+- Ga naar _Configure | Reference Data | UML Types_, voeg daar de tag name 'SourceAttribute' toe (***Let op!*** hoofdletter 'S' en 'A') met de onderstaande vulling:
 
 ![sourceAttribute](./images/sourceattribute-instellingen-ea.JPG)
 

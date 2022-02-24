@@ -54,11 +54,11 @@ Na het laden van de MIG, MUG en MBG profielen (zie boven) moeten deze geactiveer
 In geval er meerdere MUG-profielen zichtbaar zijn in het configuratiescherm moeten deze alle aangevinkt worden wegens een onbekende bug in EA.
 
 Tevens moet in en overbodige profielen uitgezet worden. De profielen die minimaal actief moeten zijn, zijn:
-* 'Basic UML 2 Technology'
-* 'Core Extensions'
-* 'MIG' of 'MIM'
-* 'MUG'
-* 'MBG'
+- 'Basic UML 2 Technology'
+- 'Core Extensions'
+- 'MIG' of 'MIM'
+- 'MUG'
+- 'MBG'
 
 ### 1.1.6  Aanpassen metamodellen
 
@@ -73,58 +73,57 @@ De metamodellen maar ook het EA project van waaruit de metamodellen aangepast wo
 
 Hieronder worden de stappen beschreven die je moet doorlopen om Enterprise Architect geschikt te maken voor het werken met Subversion.
 
-* Enterprise Architect werkt direct op subversion en niet met Tortoise. Je moet er dus voor zorgen dat je over de SVN executable ‘svn.exe’ beschikt. Dit kan door Tortoise te installeren. Heb je Tortoise al geïnstalleerd dan is de kans groot dat je de svn command line client niet hebt geïnstalleerd.  Installeer daarom Tortoise opnieuw of download de laatste versie van Tortoise en installeer deze. Selecteer daarbij in het Tortoise setup menu de optie ‘Will be installed on local hard drive’ bij ‘command line client tools’ en start daarna opnieuw op:
+- Enterprise Architect werkt direct op subversion en niet met Tortoise. Je moet er dus voor zorgen dat je over de SVN executable ‘svn.exe’ beschikt. Dit kan door Tortoise te installeren. Heb je Tortoise al geïnstalleerd dan is de kans groot dat je de svn command line client niet hebt geïnstalleerd.  Installeer daarom Tortoise opnieuw of download de laatste versie van Tortoise en installeer deze. Selecteer daarbij in het Tortoise setup menu de optie ‘Will be installed on local hard drive’ bij ‘command line client tools’ en start daarna opnieuw op:
 
 
  ![Tortoise-setup](./images/Tortoise%20Custom%20Setup.jpg)
 
-* Hierna dien je een working copy aan te maken in je filesysteem van de inmiddels vervaardigde EAP repository. Kies daarvoor eerst de gewenste locatie en creëer zo nodig een folder;
-* Binnen de zojuist gekozen of vervaardigde folder check je vervolgens de repository met de EAP bestanden uit (op dit moment kun je deze vinden onder https://vngrealisatie.plan.io/svn/modellen-repository.modellen-repository), Kies daarbij een naam voor de folder waarin deze moet worden uitgepakt (bijv. ‘EAP-bronnen’). Er worden nu lokaal een aantal folders en bestanden geplaatst;
-* We gaan nu in EA een aantal versioncontrol configuraties aanmaken die je in de gelegenheid stellen eenvoudig naar de subversion folders te navigeren. Afhankelijk van welke modellen je denkt te gaan produceren moet je enkele of alle volgende configuraties aanmaken voor de volgende folders:
- - trunk/SIM;
- - trunk/UGM;
- - trunk/BSM;
- - branches/SIM;
- - branches/UGM;
- - branches/BSM;
- - tags/SIM;
- - tags/UGM;
- - tags/BSM.
-* Open daarvoor in Enterprise Architect het lege template EA bestand dat je onderaan deze pagina in de bestandslijst kunt vinden. Hier gaan we niets mee doen maar:
- - een geopend EA bestand is een voorwaarde om SVN in Enterprise Architect te configureren;
- - het voorziet je al van de genoemde SVN configuraties die je dan alleen nog maar hoeft te vullen.
-* Ga binnen Enterprise Architect naar ‘Configure | Version Control | Project-VC’.
+- Hierna dien je een working copy aan te maken in je filesysteem van de inmiddels vervaardigde EAP repository. Kies daarvoor eerst de gewenste locatie en creëer zo nodig een folder;
+- Binnen de zojuist gekozen of vervaardigde folder check je vervolgens de repository met de EAP bestanden uit (op dit moment kun je deze vinden onder https://vngrealisatie.plan.io/svn/modellen-repository.modellen-repository), Kies daarbij een naam voor de folder waarin deze moet worden uitgepakt (bijv. ‘EAP-bronnen’). Er worden nu lokaal een aantal folders en bestanden geplaatst;
+- We gaan nu in EA een aantal versioncontrol configuraties aanmaken die je in de gelegenheid stellen eenvoudig naar de subversion folders te navigeren. Afhankelijk van welke modellen je denkt te gaan produceren moet je enkele of alle volgende configuraties aanmaken voor de volgende folders:
+  - trunk/SIM;
+  - trunk/UGM;
+  - trunk/BSM;
+  - branches/SIM;
+  - branches/UGM;
+  - branches/BSM;
+  - tags/SIM;
+  - tags/UGM;
+  - tags/BSM.
+- Open daarvoor in Enterprise Architect het lege template EA bestand dat je onderaan deze pagina in de bestandslijst kunt vinden. Hier gaan we niets mee doen maar:
+  - een geopend EA bestand is een voorwaarde om SVN in Enterprise Architect te configureren;
+  - het voorziet je al van de genoemde SVN configuraties die je dan alleen nog maar hoeft te vullen.
+- Ga binnen Enterprise Architect naar ‘Configure | Version Control | Project-VC’.
 Je krijgt nu het volgende menu:
 ![Settings](./images/EA%20Version%20Control%20Settings.jpg)
 
 Waarbij je bij de 'Defined Configurations' dus al de negen genoemde configuraties ziet staan (in de illustratie hierboven is deze echter leeg).
 
-* Voor elk van deze negen configuraties doe je nu het volgende:
- - Selecteer de configuratie;
- - Bepaal of de configuratie voor jou van toepassing zal zijn. Als je je nooit bezig houdt met het ontwikkelen van SIM's, heb je de configuratie 'Imvertor-trunk-SIM' niet nodig. Indien dit niet het geval is verwijder hem dan.
- - Indien de configuratie wel van toepassing is geef dan aan dat het version control van het type ‘Subversion’ is;
- - Kies het path naar de gerelateerde SVN folder. Helaas kan je daarbij geen copy and paste van een voorgaand path toepassen;
- - Geef aan waar de ‘svn.exe’ nu staat (dit hoef je waarschijnlijk alleen bij de eerste configuratie te doen);
+- Voor elk van deze negen configuraties doe je nu het volgende:
+  - Selecteer de configuratie;
+  - Bepaal of de configuratie voor jou van toepassing zal zijn. Als je je nooit bezig houdt met het ontwikkelen van SIM's, heb je de configuratie 'Imvertor-trunk-SIM' niet nodig. Indien dit niet het geval is verwijder hem dan.
+  - Indien de configuratie wel van toepassing is geef dan aan dat het version control van het type ‘Subversion’ is;
+  - Kies het path naar de gerelateerde SVN folder. Helaas kan je daarbij geen copy and paste van een voorgaand path toepassen;
+  - Geef aan waar de ‘svn.exe’ nu staat (dit hoef je waarschijnlijk alleen bij de eerste configuratie te doen);
  ![Settings](./images/Version%20Control%20Settings.png)
- - Bewaar de configuratie.
+- Bewaar de configuratie.
 
 De volgorde waarin de configuraties zijn opgevoerd is bepalend voor de volgorde waarin deze verschijnen in het pull-down menu voor het ophalen van de packages. Indien je het meest modellen uit de tags ophaalt dan is het wellicht handiger om de configuraties 'Imvertor-tags-SIM', 'Imvertor-tags-UGM' en 'Imvertor-tags-BSM' als eerste op te voeren. In dat geval zul je de oude configuraties toch moeten verwijderen en de configuraties helemaal zelf op moeten voeren.
 
-* Als je alle 9 configuraties hebt vervaardigd dan kan je het menu sluiten.
+- Als je alle 9 configuraties hebt vervaardigd dan kan je het menu sluiten.
  ![Settings](./images/Version%20Control%20Settings%20Configured.png)
 
 
 ### 1.1.8 Tagged value SourceAttribute navigeerbaar (klikbaar) maken
 
-* Ga naar _Configure | Reference Data | UML Types_, voeg daar de tag name 'SourceAttribute' toe (*Let op!* hoofdletter 'S' en 'A') met de onderstaande vulling:
+- Ga naar _Configure | Reference Data | UML Types_, voeg daar de tag name 'SourceAttribute' toe (*Let op!* hoofdletter 'S' en 'A') met de onderstaande vulling:
 
 ![sourceAttribute](./images/sourceattribute-instellingen-ea.JPG)
 
-* Klik op _Save_.
+- Klik op _Save_.
 
 
 ### 1.1.9 Traceability script beschikbaar maken in project browser.
-
 
 Installeer de laatste versie van het script die onderaan deze pagina is toegevoegd (Set Traceability Scripts with and without transformation 2021-11-29.xml ).
 

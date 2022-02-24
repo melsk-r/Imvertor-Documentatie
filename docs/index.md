@@ -47,4 +47,4 @@ Handreikingen van diverse pluimage.
 
 ## [7 Tagged Values](./Tagged-values.md)
 
-## [8 Veel voorkomende fouten](./Veelvoorkomende-fouten)
+## [8 Veel voorkomende fouten](./Veelvoorkomende-fouten.md)

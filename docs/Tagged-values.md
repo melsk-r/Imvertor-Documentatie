@@ -2,18 +2,13 @@
 
 M.b.v. tagged values (TV's) kan aan constructies in UML extra semantiek meegegeven worden. De aanwezigheid van TV's kan m.b.v. metamodellen gefaciliteerd of m.b.v. Imvertor afgedwongen worden. In de volgende tabel staan TV's die noch gefaciliteerd noch afgedwongen worden. Daarnaast hebben ze ook geen functie voor |mvertor. Het is echter de afspraak dat we onze modellen er van voorzien ter documentatie.
 
-| Test | 123    |
-|------| -------|
-|      |        |
-
-
 | Tv-naam |  Waar | Verplicht (in) | Beschrijving | Mogelijke waarden | Afleiding mogelijk |
 | ----------------- | ----- | -------------- | ------------ | ----------------- | ------------------ |
 | Versienummer yyy xxxx | Packages | Nee | Versienummer van een suppliermodel. 'xxxx' komt dan overeen met een van de waarden genoemd in de TV 'Supplier-name'. De waarde van deze TV zelf komt overeen met de EA property 'Version' van het bewuste suppliermodel. Deze TV is strikt informatief. | bijv. '02.02.00' | Nee |
 
 De tabellen in de volgende secties bevatten de tagged values voor de SIM, UGM en BSM modellen die voor Imvertor en de genereer-code (XML/SOAP en JSON / JSON Linked Data) nodig zijn om op juiste wijze te kunnen werken. Deze tabellen zijn gegenereerd op basis van de Imvertor configuratiebestanden. Aanpassingen van deze tabellen moeten dan ook niet op deze plaats plaatsvinden maar in de configuratiebestanden waarna deze tabellen weer gegenereerd moeten worden.
 
-h2. Tagged values voor de MIG gebaseerde SIM (Semantische Informatie Modellen)
+## Tagged values voor de MIG gebaseerde SIM (Semantische Informatie Modellen)
 
 
 | Tagged value naam| Waar | Verplicht (in) | Beschrijving | Mogelijke waarden _(in vet de defaultwaarde)_ | Afleiding mogelijk |
@@ -56,7 +51,6 @@ h2. Tagged values voor de MIG gebaseerde SIM (Semantische Informatie Modellen)
 | 'Toelichting' 'Omschrijving' | Objecttype, Attribuutsoort, Gegevensgroeptype, Relatiesoort, Referentielijst, Referentie element | Nee | Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. | | Ja |
 | 'Versie ID' | Basismodel, Toepassing, Domein, Extern, View | Nee | De identificatie van de versie/revisie van dit model of model-element in het gehanteerde versiebeheersysteem. | | Nee |
 | 'Web locatie' | Basismodel, Toepassing, Extern, View, Domein | Nee | *Wie kan hier een definitie van geven ?* | | Ja |
-}}
 
 ## Tagged values voor de MIM gebaseerde SIM (Semantische Informatie Modellen)
 
@@ -112,7 +106,6 @@ h2. Tagged values voor de MIG gebaseerde SIM (Semantische Informatie Modellen)
 | 'Supplier-release' | Basismodel Basismodel, Toepassing | Toepassing | Dit bevat de releasedatum in het format yyyymmdd van het suppliermodel waarvan een model hergebruik maakt. Er zijn meerdere waardes mogelijk, gescheiden door een ; (puntkomma) . Volgorde moet corresponderen met die in supplier-name en supplier-project. Alleen opnemen wanneer van afleiding sprake is. | Bijv. '20170901;20170801' | Nee |
 | 'Versie ID' | Basismodel Basismodel, Toepassing, Domein, Extern, View | Nee | De identificatie van de versie/revisie van dit model of model-element in het gehanteerde versiebeheersysteem. | | Nee |
 | 'Web locatie' | Basismodel Basismodel, Toepassing, Extern, View, Domein | Nee | *Wie kan hier een definitie van geven ?* | | Ja |
-}}
 
 ## Tagged values voor de UGM (UitwisselingsGegevensModel)
 
@@ -160,7 +153,6 @@ h2. Tagged values voor de MIG gebaseerde SIM (Semantische Informatie Modellen)
 | 'Verkorte alias' | Toepassing, Basismodel | Toepassing, | Verkorte alias is een korte naam, die uiteindelijk gekoppeld is aan een namespace in XML schema. In feite is het dus een technisch configuratie-element. Heeft alleen een toepassing binnen StUF schema's. | | Nee |
 | 'Versie ID' | Basismodel, Toepassing, Domein, Extern, View | Nee | De identificatie van de versie/revisie van dit model of model-element in het gehanteerde versiebeheersysteem. | | Nee |
 | 'Web locatie' | Basismodel, Toepassing, Extern, View, Domein | Nee | *Wie kan hier een definitie van geven ?* | | Ja |
-}}
 
 ## Tagged values voor de BSM (Bericht Structuur Modellen)
 

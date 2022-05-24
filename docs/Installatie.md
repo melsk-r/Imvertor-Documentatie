@@ -1,3 +1,7 @@
+---
+layout: page-with-side-nav
+title: Installatie
+---
 # 1. Installatie
 
 ## 1.1 Enterprise Architect configureren.

@@ -1,3 +1,7 @@
+---
+layout: page-with-side-nav
+title: Model Driven Design
+---
 # 4 Model Driven Design
 
 In [3 Het drie-lagen model](./Drielagen-model.md) is al uitgelegd hoe SIM's, UGM's en BSM's met elkaar verweven zijn. In dit hoofdstuk beschrijven we hoe deze modellen daadwerkelijk opgesteld kunnen worden.

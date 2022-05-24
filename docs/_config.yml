@@ -21,7 +21,7 @@ nav:
       - title: Wetenswaardigheden en specials
         path: /Wetenswaardigheden-en-specials
       - title: Tagged Values
-        path: /Taged-values
+        path: /Tagged-values
       - title: Veel voorkomende foutens
         path: /Veelvoorkomende-fouten
 plugins:

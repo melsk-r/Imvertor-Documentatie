@@ -1,3 +1,7 @@
+---
+layout: page-with-side-nav
+title: Het opstellen van een horizontaal GegevensUitwisselingsModel
+---
 # 4.2 Het opstellen van een horizontaal GegevensUitwisselingsModel
 
 In een horizontaal GegevensUitwisselingsmodel worden die gegevens op UGM niveau

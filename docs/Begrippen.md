@@ -1,4 +1,8 @@
-## 2 Begrippen
+---
+layout: page-with-side-nav
+title: Begrippen
+---
+# 2 Begrippen
 
 | Begrip | Toelichting |                                                     
 | ------ | ------------------------------------------------------------ |

@@ -1,4 +1,4 @@
-baseurl: "/Geonovum"
+baseurl: "/Imvertor-Documentatie"
 url: "http://localhost:4000"
 # nav is t.b.v. generatie side-navigation menu.
 # Een 'title' zonder path of url genereert slechts een kopje.
@@ -30,7 +30,7 @@ plugins:
   
 remote_theme: VNG-Realisatie/jekyll-theme-imvertor
 
-github: melsk-r/Geonovum
+github: melsk-r/Imvertor-Documentatie
 theme: jekyll-theme-time-machine
 
-project_name: /Imvertor
+project_name: /Imvertor-Documentatie

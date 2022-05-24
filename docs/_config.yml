@@ -7,6 +7,7 @@ url: "http://localhost:4000"
 # 'target: blank' zorgt er voor dat de link in een nieuw tabblad wordt geöpend.
 nav:
   - title: VNG-R Imvertor documentatie
+    subnav:
       - title: Installatie
         path: /Installatie
       - title: Begrippen

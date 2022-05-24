@@ -1,3 +1,7 @@
+---
+layout: page-with-side-nav
+title: Het gebruik van SVN
+---
 # 4.1 Het gebruik van SVN
 
 In dit hoofdstuk beschrijven we hoe we binnen VNG-realisatie i.h.k.v. de Nieuwe Aanpak omgaan met het beheer van onze modellen. Het aantal modellen dat we in beheer hebben neemt vlug toe en aangezien de relaties tussen deze modellen een spaghetti aan afhankelijkheden oplevert is het van groot belang dat de procedure voor het gezamenlijk werken aan deze modellen voor iedereen duidelijk is en ook toegepast wordt.

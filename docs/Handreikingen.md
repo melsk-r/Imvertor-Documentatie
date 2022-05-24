@@ -1,3 +1,7 @@
+---
+layout: page-with-side-nav
+title: Handreikingen
+---
 # 5 Handreikingen
 
 - In [51 Werkinstructies](./Werkinstructies.md) worden afspraken beschreven over de wijze waarop we binnen Model Driven Design werkzaamheden verrichten.

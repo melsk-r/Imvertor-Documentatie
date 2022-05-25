@@ -20,31 +20,25 @@ Uitleg van de samenhang tussen SIM, UGM en BSM.
 
 Procesbeschrijving voor het maken van horizontale SIM's en UGM's en de koppelvlak SIM's, UGM's en BSM's.
 
-> ### [4.1 Het gebruik van SVN](Gebruik-van-SVN)
-
-> ### [4.2 Het opstellen van een horizontaal Semantisch InformatieModel](Opstellen-SIM)
-
-> ### [4.3 Het opstellen van een horizontaal GegevensUitwisselingsModel](Opstellen-UGM)
-
- >> ### [4.3.1 Technische en implementatie-overwegingen](Technische-en-implementatie-overwegingen)
-
-> ### [4.4 Het opstellen van een koppelvlak](Opstellen-BSM)
-
+**[4.1 Het gebruik van SVN](Gebruik-van-SVN)**<br/>
+**[4.2 Het opstellen van een horizontaal Semantisch InformatieModel](Opstellen-SIM)**<br/>
+**[4.3 Het opstellen van een horizontaal GegevensUitwisselingsModel](Opstellen-UGM)**<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[4.3.1 Technische en implementatie-overwegingen](Technische-en-implementatie-overwegingen)**<br/>
+**[4.4 Het opstellen van een koppelvlak](Opstellen-BSM)**
+<!--
 >> ### [4.4.1 Opstellen van een Koppelvlak-informatiemodel (Obsolete ?)]()
 
 >> ### [4.4.2 Opstellen van een koppelvlak-UitwisselingsGegevensModel (Obsolete ?)]()
 
->> ### [4.4.3 Opstellen van een koppelvlak-BerichtStructuurModel (Obsolete ?) ]()
+>> ### [4.4.3 Opstellen van een koppelvlak-BerichtStructuurModel (Obsolete ?) ]() -->
 
 ## [5 Handreikingen](./Handreikingen.md)
 
 Handreikingen van diverse pluimage.
 
-> ### [5.1 Werkinstructies](Werkinstructies)
-
-> ### [5.2 Technieken en handigheidjes](Technieken-en-handigheidjes)
-
-> ### [5.3 Naamgevingsconventies](Naamgevingsconventies)
+**[5.1 Werkinstructies](Werkinstructies)**<br/>
+**[5.2 Technieken en handigheidjes](Technieken-en-handigheidjes)**<br/>
+**[5.3 Naamgevingsconventies](Naamgevingsconventies)**
 
 ## [6 Wetenswaardigheden en specials](Wetenswaardigheden-en-specials)
 

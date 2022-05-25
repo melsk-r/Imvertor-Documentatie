@@ -2,7 +2,7 @@
 layout: page-with-side-nav
 title: Technische en implementatie-overwegingen
 ---
-# 4.2.1 Technische en implementatie-overwegingen
+# 4.3.1 Technische en implementatie-overwegingen
 
 Hier kunnen we documenteren welke overwegingen er zijn toegepast bij het opstellen van het UGM. Daarbij kan gebruik gemaakt worden van voorbeelden.
 

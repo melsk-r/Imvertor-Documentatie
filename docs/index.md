@@ -25,13 +25,6 @@ Procesbeschrijving voor het maken van horizontale SIM's en UGM's en de koppelvla
 **[4.3 Het opstellen van een horizontaal GegevensUitwisselingsModel](Opstellen-UGM)**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[4.3.1 Technische en implementatie-overwegingen](Technische-en-implementatie-overwegingen)**<br/>
 **[4.4 Het opstellen van een koppelvlak](Opstellen-BSM)**
-<!--
->> ### [4.4.1 Opstellen van een Koppelvlak-informatiemodel (Obsolete ?)]()
-
->> ### [4.4.2 Opstellen van een koppelvlak-UitwisselingsGegevensModel (Obsolete ?)]()
-
->> ### [4.4.3 Opstellen van een koppelvlak-BerichtStructuurModel (Obsolete ?) ]() -->
-
 ## [5 Handreikingen](./Handreikingen.md)
 
 Handreikingen van diverse pluimage.

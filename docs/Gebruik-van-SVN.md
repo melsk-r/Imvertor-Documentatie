@@ -38,7 +38,7 @@ Het ophalen van een model wordt gedaan door een Get package uit te voeren:
 
 Het model wordt nu binnengehaald  en onder de package gezet die  je in de eerste stap hebt geselecteerd.
 
-*Let op*: Het binnenhalen van een stelsel aan packages dient in de juiste volgorde te gebeuren. Dus eerst de SIM packages waar andere SIM packages van afhankelijk zijn, daarna die andere SIM packages en daarna hetzelfde voor de UGM packages en tenslotte het BSM package. Voor het bepalen van de juiste volgorde verwijs ik naar "het Supplieroverzicht":https://vvng.sharepoint.com/sites/UnitArchitectuurenStandaarden/Gedeelde%20documenten/General/De%20nieuwe%20aanpak/Supplieroverzicht.html. De in dit overzicht op het laagste niveau voorkomende modellen (de modellen die het verste inspringen) moeten als eerste binnengehaald worden.
+*Let op*: Het binnenhalen van een stelsel aan packages dient in de juiste volgorde te gebeuren. Dus eerst de SIM packages waar andere SIM packages van afhankelijk zijn, daarna die andere SIM packages en daarna hetzelfde voor de UGM packages en tenslotte het BSM package. Voor het bepalen van de juiste volgorde verwijs ik naar "[het Supplieroverzicht](https://vvng.sharepoint.com/sites/UnitArchitectuurenStandaarden/Gedeelde%20documenten/General/De%20nieuwe%20aanpak/Supplieroverzicht.html)". De in dit overzicht op het laagste niveau voorkomende modellen (de modellen die het verste inspringen) moeten als eerste binnengehaald worden.
 
 ### Bewerken van een model
 

@@ -24,6 +24,7 @@ Al deze bestanden (en dus de gehele inhoud van https://github.com/VNG-Realisatie
 * Ook de Imvertor-Maven repo moet lokaal beschikbaar zijn;
 * De folder waarin de lokale Imvertor-Maven repository (bijv. 'C:/Data/Imvertor') te vinden is moet in de xml confoguratiebestanden worden gedefinieerde op het attribute '/tas:tagsandstereos/@static-base-uri' (dus alles van het pad dat voorafgaat aan 'Imvertor-Maven');
 * Een recente versie van de Saxon processor for XSLT moet geïnstalleerd zijn (zie https://www.saxonica.com/welcome/welcome.xml) en het pad waarin het benodigde jar bestand staat moet toegevoegd zijn aan de 'CLASSPATH' omgevings variabele. Het installeren omhelst eigenlijk niet meer dan het uitpakken van de zip die je van de Saxonica website haalt. Wij gebruiken de 'saxon-he' variant van de saxon processor maar andere versies kunnen ook gebruikt worden;
+* In 'Consolidate.bat' moet de variabele 'saxon_path' verwijzen naar het jar bestand dat je in de voorgaande stap hebt geïnstalleerd;
 * En natuurlijk moet Java (liefst de laatste versie) geïnstalleerd zijn.
 
 Door het starten van Consolidate.bat wordt er in de folder 'consolidateTagsets/Resultaat' een aantal bestanden geplaatst waarbinnen de lijsten met Tagged Values staan. Deze kunnen nu in het batch bestand 'docs/Tagged-values.md' de oude versies vervangen.
@@ -42,6 +43,7 @@ Beide bestanden van https://github.com/VNG-Realisatie/Model-Driven-Design-Docume
 * Zoals gezegd moet de subversion folder met daarin de folders 'trunk', 'branch' en 'tags' lokaal staan;
 * Je moet op al deze folders en de subfolders daaronder schrijfrechten hebben;
 * Een recente versie van de Saxon processor for XSLT moet geïnstalleerd zijn (zie https://www.saxonica.com/welcome/welcome.xml) en het pad waarin het benodigde jar bestand staat moet toegevoegd zijn aan de 'CLASSPATH' omgevings variabele. Het installeren omhelst eigenlijk niet meer dan het uitpakken van de zip die je van de Saxonica website haalt. Wij gebruiken de 'saxon-he' variant van de saxon processor maar andere versies kunnen ook gebruikt worden;
+* In 'Consolidate.bat' moet de variabele 'saxon_path' verwijzen naar het jar bestand dat je in de voorgaande stap hebt geïnstalleerd;
 * En natuurlijk moet Java (liefst de laatste versie) geïnstalleerd zijn.
 
 Door het starten van het batch bestand 'Overzicht-modellen.bat' wordt er in de folder waarin dat bestand staat het bestand 'Supplieroverzicht.html' geplaatst. Dit bestand kan het bestand met dezelfde naam in https://github.com/VNG-Realisatie/Model-Driven-Design-Documentatie/tree/main/docs vervangen.

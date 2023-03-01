@@ -16,7 +16,7 @@ Het daadwerkelijk starten van het genereren gebeurd m.b.v. het bestand Consolida
 Al deze bestanden moeten lokaal geplaatst worden voordat ze gebruikt kunnen worden. Er zijn echter nog een aantal voorwaarden waaraan je moet voldoen:
 * Ook de Imvertor-Maven repo moet lokaal beschikbaar zijn;
 * De folder waarin de lokale Imvertor-Maven repository (bijv. 'C:/Data/Imvertor') te vinden is moet in de xml confoguratiebestanden worden gedefinieerde op het attribute '/tas:tagsandstereos/@static-base-uri' (dus alles van het pad dat voorafgaat aan 'Imvertor-Maven');
-* Een recente versie van de Saxon processor for XSLT moet geïnstalleerd zijn (zie https://www.saxonica.com/welcome/welcome.xml) en het pad waarin het benodigde jar bestand staat moet toegevoegd zijn aan de 'CLASSPATH' omgevings variabele;
+* Een recente versie van de Saxon processor for XSLT moet geïnstalleerd zijn (zie https://www.saxonica.com/welcome/welcome.xml) en het pad waarin het benodigde jar bestand staat moet toegevoegd zijn aan de 'CLASSPATH' omgevings variabele. Het installeren omhelst eigenlijk niet meer dan het uitpakken van de zip die je van de Saxonica website haalt. Wij gebruiken de 'saxon-he' variant van de saxon processor maar andere versies kunnen ook gebruikt worden;
 * En natuurlijk moet Java (liefst de laatste versie) geïnstalleerd zijn.
 
 Door het starten van Consolidate.bat wordt er in de folder 'consolidateTagsets/Resultaat' een aantal bestanden geplaatst waarbinnen de lijsten met Tagged Values staan. Deze kunnen nu in het bestand 'Tagged-values.md' de oude versies vervangen.

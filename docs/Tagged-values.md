@@ -72,6 +72,7 @@ Generated: 2023-03-01
 ## Tagged values voor de UGM (UitwisselingsGegevensModel)
 
 Generated: 2023-03-01
+
 | Tagged value naam | Waar | Verplicht (in) | Beschrijving | Mogelijke waarden _(in vet de defaultwaarde)_ | Afleiding mogelijk |
 | --- | --- | --- | --- | --- | --- |
 | 'Is afgeleid' | Gegevensgroep | Nee | Deze constructie is al dan niet afgeleid van een "supplier model". Wanneer je niks opgeeft wordt afleiding vastgesteld op basis van het package waarin het voorkomt. | | Nee |
@@ -122,6 +123,7 @@ Generated: 2023-03-01
 ## Tagged values voor de BSM (Bericht Structuur Modellen)
 
 Generated: 2023-03-01
+
 | Tagged value naam | Waar | Verplicht (in) | Beschrijving | Mogelijke waarden _(in vet de defaultwaarde)_ | Afleiding mogelijk |
 | --- | --- | --- | --- | --- | --- |
 | 'Indicatie authentiek' | Element, Groep, Relatie | Nee | Aanduiding of het een authentiek gegeven (attribuutsoort) betreft. | | Ja |

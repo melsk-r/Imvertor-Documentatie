@@ -13,7 +13,7 @@ Het genereren gebeurd m.b.v. het XSLT stylesheet 'Consolidate-TVs-GitHub-style.x
 
 Het daadwerkelijk starten van het genereren gebeurd m.b.v. het bestand Consolidate.bat eveneens te vinden in de folder https://github.com/VNG-Realisatie/Model-Driven-Design-Documentatie/tree/main/code/consolidateTagsets.
 
-Al deze bestanden moeten lokaal geplaatst worden voordat ze gebruikt kunnen worden. Er zijn echter nog een aantal voorwaarden waaraan je moet voldoen:
+Al deze bestanden (en dus de gehele inhoud van https://github.com/VNG-Realisatie/Model-Driven-Design-Documentatie/tree/main/code/consolidateTagsets) moeten lokaal geplaatst worden voordat ze gebruikt kunnen worden. Er zijn echter nog een aantal voorwaarden waaraan je moet voldoen:
 * Ook de Imvertor-Maven repo moet lokaal beschikbaar zijn;
 * De folder waarin de lokale Imvertor-Maven repository (bijv. 'C:/Data/Imvertor') te vinden is moet in de xml confoguratiebestanden worden gedefinieerde op het attribute '/tas:tagsandstereos/@static-base-uri' (dus alles van het pad dat voorafgaat aan 'Imvertor-Maven');
 * Een recente versie van de Saxon processor for XSLT moet geïnstalleerd zijn (zie https://www.saxonica.com/welcome/welcome.xml) en het pad waarin het benodigde jar bestand staat moet toegevoegd zijn aan de 'CLASSPATH' omgevings variabele. Het installeren omhelst eigenlijk niet meer dan het uitpakken van de zip die je van de Saxonica website haalt. Wij gebruiken de 'saxon-he' variant van de saxon processor maar andere versies kunnen ook gebruikt worden;

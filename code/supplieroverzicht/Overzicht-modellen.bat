@@ -1,5 +1,5 @@
 @echo off
-set saxon11_path=C:\SaxonHE11-5J\saxon-he-11.5.jar
+set saxon_path=C:\SaxonHE11-5J\saxon-he-11.5.jar
 set trunk=C:\Data\KING\Kern-taken\StUF\EAP-bronnen\XMI-data\trunk
 set basefolder=C:\Data\Temp\GitHub\Model-Driven-Design-Documentatie\code\supplieroverzicht
 
@@ -33,7 +33,7 @@ dir /B > ../BSMcatalogue.txt
 cd %basefolder%
 
 rem java -Xmx1024m -jar %saxon_path% -o:Supplieroverzicht.html -s:Supplieroverzicht-html.xsl -xsl:Supplieroverzicht-html.xsl SVNpath=file:////C:/Data/KING/Kern-taken/StUF/EAP-bronnen/XMI-data/
-java -Xmx1024m -cp %saxon11_path% net.sf.saxon.Transform -t -o:Supplieroverzicht.html -s:Supplieroverzicht-html.xsl -xsl:Supplieroverzicht-html.xsl SVNpath=file:////C:/Data/KING/Kern-taken/StUF/EAP-bronnen/XMI-data/
+java -Xmx1024m -cp %saxon_path% net.sf.saxon.Transform -t -o:Supplieroverzicht.html -s:Supplieroverzicht-html.xsl -xsl:Supplieroverzicht-html.xsl SVNpath=file:////C:/Data/KING/Kern-taken/StUF/EAP-bronnen/XMI-data/
 
 cd %trunk%
 del SIMcatalogue.txt

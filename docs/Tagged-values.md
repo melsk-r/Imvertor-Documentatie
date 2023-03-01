@@ -15,6 +15,7 @@ De tabellen in de volgende secties bevatten de tagged values voor de SIM, UGM en
 ## Tagged values voor de MIM gebaseerde SIM (Semantische Informatie Modellen)
 
 Generated: 2023-03-01
+
 | Tagged value naam | Waar | Verplicht (in) | Beschrijving | Mogelijke waarden _(in vet de defaultwaarde)_ | Afleiding mogelijk |
 | --- | --- | --- | --- | --- | --- |
 | 'Herkomst definitie' | Attribuutsoort_proxy, Gegevensgroeptype_proxy, Objecttype_proxy, Gegevensgroep_proxy | Nee | MIM 1.1: De registratie of het informatiemodel waaruit de definitie is overgenomen dan wel een aanduiding die aangeeft uit welke bronnen de definitie is samengesteld. | | |

@@ -8,7 +8,7 @@ url: "http://localhost:4000"
 nav:
   - title: Model Driven Design documentatie
     subnav:
-      - title: Home
+      - title: Inhoudsopgave
         path: /
       - title: Installatie
         path: /Installatie
